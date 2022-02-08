@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>IDPowers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <form action="" method="post">
+            <div class="form">
+                <div class="form__title">
+                    Калькулятор займа под ПТС
+                </div>
+                <div class="form__left" >
+                    <div class="form__sort">
+                        <div class="subtitle">
+                            Тип платежа
+                        </div>
+                        <div class="form__buttons">
+                            <button class="form__button form__button-left form__button_active">Дифференцированный
+                            </button>
+                            <button class="form__button form__button-right ">Аннуитетный</button>
+                        </div>
+                    </div>
+                    <div class="form__settings">
+                        <div class="input-range">
+                            <div class="input-range__item">
+                                <div class="subtitle">Сумма займа</div>
+                                <div class="subtitle"><span
+                                        class="input-range__value input-range__value_top">138100</span> ₽
+                                </div>
+                            </div>
+                            <label>
+                                <input class="input-range__input input-range__top" min="15000" max="1000000" step="100"
+                                       type="range" name="summa"
+                                       id="summa" value="138100">
+                            </label>
+                            <div class="input-range__info">
+                                <div>от 15 000 ₽</div>
+                                <div>до 1 000 000 ₽</div>
+                            </div>
+                        </div>
+                        <div class="input-range">
+                            <div class="input-range__item">
+                                <div class="subtitle">Срок займа</div>
+                                <div class="subtitle"><span
+                                        class="input-range__value input-range__value_bottom">8</span> месяцев
+                                </div>
+                            </div>
+                            <label><input class="input-range__input input-range__bottom" min="2" max="12" step="1"
+                                          type="range" name="period"
+                                          id="period" value="8"></label>
+                            <div class="input-range__info">
+                                <div>от 2 месяца</div>
+                                <div>до 12 месяцев</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__info">
+                        Условия выдачи займа могут отличаться, исходя из анализа документов и состояния вашего
+                    </div>
+                </div>
+                <div class="form__right">
+                    <div class="form__final-price">
+                        <div class="form__title-price">Ставка</div>
+                        <div class="form__price">2.7%</div>
+                    </div>
+                    <div class="form__final-price">
+                        <div class="form__title-price">Ежемесячный платеж</div>
+                        <div class="form__price">3 729 ₽</div>
+                    </div>
+                    <div class="form__buttons">
+                        <button class="form__button-submit" type="submit">Подать заявку</button>
+                    </div>
+                    <div class="form__info">
+                        Расчет займа предварительный
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="scripts/main.js"></script>
+</body>
+</html>
